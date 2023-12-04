@@ -1,0 +1,66 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+body {
+  background-color: white;
+  list-style: none;
+}
+
+main {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+footer {
+  background-color: white;
+  color: black;
+}
+
+@font-face {
+  font-family: "walkwayregular";
+  src: url("fonte/walkway-webfont.woff2") format("woff2"), url("fonte/walkway-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* TEKST START*/
+h1 {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+a {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-size: 1rem;
+}
+
+a:hover {
+  color: red;
+}
+
+@media (min-width: 800px) {
+}
