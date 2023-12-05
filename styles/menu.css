@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #fff;
+  background-color: #a5b88e;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -42,7 +42,7 @@ nav {
 }
 
 .menu a:hover {
-  color: #f00;
+  color: #862908;
 }
 
 .burger {
@@ -85,7 +85,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #fff;
+    background-color: #a5b88e;
     position: absolute;
     top: 60px;
     left: 0;
