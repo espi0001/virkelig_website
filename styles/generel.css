@@ -17,12 +17,12 @@ body {
 }
 
 main {
-  max-width: 1400px;
+  /* max-width: 1400px; */
   margin: 0 auto;
 }
 
 footer {
-  background-color: #a5b88e;
+  background-color: #a99c9c;
   color: black;
 }
 
@@ -44,12 +44,20 @@ h1 {
 h2 {
   font-family: "walkwayregular", sans-serif;
   color: black;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+h3 {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-weight: 200;
   font-size: 1.5rem;
 }
 
 p {
   font-family: "walkwayregular", sans-serif;
   color: black;
+  font-weight: 100;
   font-size: 1rem;
 }
 
