@@ -33,10 +33,43 @@ footer {
   font-style: normal;
 }
 
+/* Breadcrumb start */
+/* Style the list */
+ul.breadcrumb {
+  list-style: none;
+  text-align: center;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 1rem;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: #862908;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #862908;
+  text-decoration: none;
+  font-size: 0.6rem;
+}
+
+ul.breadcrumb li a:hover {
+  color: #a5b88e;
+  text-decoration: none;
+}
+/* Breadcrumb slut */
+
 /* TEKST START*/
 h1 {
   font-family: "walkwayregular", sans-serif;
-  color: black;
+  color: #862908;
   font-weight: 100;
   font-size: 2rem;
 }
