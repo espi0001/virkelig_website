@@ -3,7 +3,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #a5b88e;
+  background-color: #a99c9c;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -85,7 +85,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #a5b88e;
+    background-color: #a99c9c;
     position: absolute;
     top: 60px;
     left: 0;
