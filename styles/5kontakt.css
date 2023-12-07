@@ -5,7 +5,7 @@ p {
 .kontakt {
   margin: 0 auto;
   background-color: #f5f4eb;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px;
 }
 
 .ramme_kontakt {
@@ -24,44 +24,72 @@ p {
 }
 
 .virkelig {
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px;
+}
+
+.map {
+  text-align: center;
+}
+
+.map img {
+  display: block;
+  margin: 0 auto;
+  order: -1;
 }
 
 article {
   display: block;
-  margin: 20px 20px 20px 20px;
+  margin: 0 auto;
+  background-color: #f5f4eb;
+  margin: 20px 20px;
+}
+.ramme_personer {
+  background-color: #f5f4eb;
+  border: solid 4px #a5b88e;
   padding: 10px 10px 10px 10px;
-  background-color: #a5b88e;
+  padding-inline: initial;
+  align-items: center;
+  text-align: center;
+  margin-inline: auto;
   align-items: center;
 }
 
 .billede {
-  align-items: center;
+  text-align: center;
 }
-img {
-  width: 80%;
+
+.billede img {
+  display: block;
+  margin: 0 auto;
+  order: -1;
+  width: 70%;
 }
+
 @media (min-width: 800px) {
+  .kontakt {
+    margin: 20px 90px;
+  }
   .ramme_kontakt {
     padding: 90px;
   }
 
+  .virkelig {
+    margin: 20px 90px;
+  }
+
+  .virkelig_tekst {
+    margin-right: 100px;
+  }
+
   article {
+    margin: 20px 90px;
+  }
+
+  .ramme_personer {
     margin: 0px;
-  }
-
-  .billede_tekst {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-  }
-
-  .tekst_billede {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
-  .billede {
-    order: -1;
+    justify-content: space-between;
   }
 }
