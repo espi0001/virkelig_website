@@ -1,0 +1,140 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*--------------- MOBILE --------------- */
+
+@media screen and (max-width: 800px) {
+  .container {
+  }
+
+  .alexander_teknik {
+    margin-bottom: 20px;
+  }
+
+  .virkelig_alex {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(126, 43, 27);
+    padding: 10px;
+  }
+
+  /* ------ MEKANIK - VÆREN - MENING ------- */
+
+  .themes {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(107, 142, 107);
+    padding: 10px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .mekanik {
+    margin-bottom: 20px;
+  }
+
+  .vaeren {
+    margin-bottom: 20px;
+  }
+
+  .mening {
+    margin-bottom: 20px;
+  }
+
+  /* -- HVID FARVE TIL TEKSTBOKSE -- */
+
+  .text_color {
+    color: aliceblue;
+  }
+
+  /*------------ BLIV LÆRER & PRISLISTE -------- */
+
+  .sign_up {
+  }
+
+  .be_at {
+    margin-bottom: 20px;
+  }
+
+  .pricelist {
+    margin-top: 20px;
+  }
+
+  button {
+    padding: 20px;
+  }
+}
+
+/* --------------------- DESKTOP ---------------------- */
+
+@media screen and (min-width: 800px) {
+  .container {
+  }
+
+  .alexander_teknik {
+    margin-bottom: 20px;
+  }
+
+  .virkelig_alex {
+    margin-bottom: 20px;
+    background-color: rgb(126, 43, 27);
+    padding: 10px;
+  }
+
+  /* ------ MEKANIK - VÆREN - MENING ------- */
+
+  .themes {
+    margin-bottom: 20px;
+    background-color: rgb(107, 142, 107);
+    padding: 10px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mekanik {
+    margin-bottom: 20px;
+    max-width: 240px;
+  }
+
+  .vaeren {
+    margin-bottom: 20px;
+    max-width: 240px;
+  }
+
+  .mening {
+    margin-bottom: 20px;
+    max-width: 240px;
+  }
+
+  /* -- HVID FARVE TIL TEKSTBOKSE -- */
+
+  .text_color {
+    color: aliceblue;
+  }
+
+  /*------------ BLIV LÆRER & PRISLISTE -------- */
+
+  .sign_up {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .be_at {
+    margin-bottom: 20px;
+  }
+
+  .pricelist {
+  }
+
+  button {
+    padding: 20px;
+  }
+}
