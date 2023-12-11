@@ -12,8 +12,9 @@ img {
 }
 
 body {
-  background-color: #f5f4eb;
+  background-color: #faf9f4;
   list-style: none;
+  line-height: 1.5;
 }
 
 main {
@@ -22,8 +23,12 @@ main {
 }
 
 footer {
-  background-color: #a99c9c;
-  color: black;
+  background-color: #3c3d30;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
 }
 
 @font-face {
@@ -85,6 +90,13 @@ h3 {
   color: black;
   font-weight: 200;
   font-size: 1.5rem;
+}
+
+h4 {
+  font-family: "walkwayregular", sans-serif;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
 }
 
 p {
