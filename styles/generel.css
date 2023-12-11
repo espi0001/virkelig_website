@@ -12,7 +12,7 @@ img {
 }
 
 body {
-  background-color: #f5f4eb;
+  background-color: #faf9f4;
   list-style: none;
 }
 
@@ -22,8 +22,12 @@ main {
 }
 
 footer {
-  background-color: #a99c9c;
-  color: black;
+  background-color: #3c3d30;
+  color: #fff;
+}
+
+footer p {
+  color: #fff;
 }
 
 @font-face {
