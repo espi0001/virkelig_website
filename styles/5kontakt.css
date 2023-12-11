@@ -1,16 +1,15 @@
-p {
-  line-height: 1.5;
+main {
+  margin: 20px 20px;
 }
 
 .kontakt {
   margin: 0 auto;
-  background-color: #f5f4eb;
-  margin: 20px 20px;
+  background-color: var(--secondary);
 }
 
 .ramme_kontakt {
-  background-color: #f5f4eb;
-  border: solid 4px #a5b88e;
+  background-color: var(--secondary);
+  border: solid 4px var(--tertiary);
   padding: 40px;
   padding-inline: initial;
   align-items: center;
@@ -19,12 +18,8 @@ p {
 }
 
 .adresse p {
-  font-size: 0.7rem;
-  font-weight: bold;
-}
-
-.virkelig {
-  margin: 20px 20px;
+  font-size: var(--senary-font-size);
+  font-weight: var(--tertiary-font-weight);
 }
 
 .map {
@@ -40,13 +35,13 @@ p {
 article {
   display: block;
   margin: 0 auto;
-  background-color: #f5f4eb;
-  margin: 20px 20px;
+  background-color: var(--secondary);
+  margin-top: 20px;
 }
 .ramme_personer {
-  background-color: #f5f4eb;
-  border: solid 4px #a5b88e;
-  padding: 10px 10px 10px 10px;
+  background-color: var(--secondary);
+  border: solid 4px var(--tertiary);
+  padding: 10px 10px;
   padding-inline: initial;
   align-items: center;
   text-align: center;
@@ -66,23 +61,15 @@ article {
 }
 
 @media (min-width: 800px) {
-  .kontakt {
+  main {
     margin: 20px 90px;
   }
   .ramme_kontakt {
     padding: 90px;
   }
 
-  .virkelig {
-    margin: 20px 90px;
-  }
-
   .virkelig_tekst {
     margin-right: 100px;
-  }
-
-  article {
-    margin: 20px 90px;
   }
 
   .ramme_personer {
