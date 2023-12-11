@@ -11,10 +11,39 @@ img {
   display: block;
 }
 
+html {
+  --primary: black; /*tekst*/
+  --secondary: #faf9f4; /*body*/
+  --tertiary: #a5b88e; /*lysegrøn*/
+  --quaternary: #3c3d30; /* Mørkegrøn - header*/
+  --quinary: #a99c9c; /* lilla */
+  --senary: #862908; /*deres rød*/
+  --septenary: #c7d2b8; /*lysere grøn*/
+
+  --primary-font: "walkwayregular", sans-serif;
+
+  --primary-line-height: 1.5;
+
+  --primary-list-style: none;
+
+  --primary-font-size: 3.5rem;
+  --secondary-font-size: 1.5rem;
+  --tertiary-font-size: 1.1rem;
+  --quaternary-font-size: 1rem;
+  --quinary-font-size: 0.8rem;
+  --senary-font-size: 0.7rem;
+
+  --primary-font-weight: 100;
+  --secondary-font-weight: 200;
+  --tertiary-font-weight: 500;
+}
+
 body {
-  background-color: #faf9f4;
-  list-style: none;
-  line-height: 1.5;
+  background-color: var(--secondary);
+  font-family: var(--primary-font);
+  list-style: var(--primary-list-style);
+  line-height: var(--primary-line-height);
+  text-decoration: none;
 }
 
 main {
@@ -23,12 +52,17 @@ main {
 }
 
 footer {
-  background-color: #3c3d30;
-  color: #fff;
+  background-color: var(--quaternary);
+  color: var(--secondary);
 }
 
 footer p {
-  color: #fff;
+  color: var(--secondary);
+}
+footer a {
+  color: var(--secondary);
+  list-style: var(--primary-list-style);
+  text-decoration: none;
 }
 
 @font-face {
@@ -36,6 +70,53 @@ footer p {
   src: url("fonte/walkway-webfont.woff2") format("woff2"), url("fonte/walkway-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal;
+}
+
+/* TEKST START*/
+h1 {
+  /* = Primary/Brand Color */
+  color: var(--primary);
+}
+
+h1 {
+  /* = Primary/Brand Color */
+  color: var(--primary);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--primary-font-size);
+}
+
+h2 {
+  /* = Primary/Brand Color */
+  color: var(--primary);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+h3 {
+  color: var(--primary);
+  font-weight: var(--secondary-font-weight);
+  font-size: var(--secondary-font-size);
+}
+
+h4 {
+  color: var(--primary);
+  font-weight: var(--tertiary-font-weight);
+  font-size: var(--tertiary-font-size);
+}
+
+p {
+  color: var(--primary);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--quaternary-font-size);
+}
+
+a {
+  color: var(--primary);
+  font-size: var(--quaternary-font-size);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--senary);
 }
 
 /* Breadcrumb start */
@@ -48,80 +129,35 @@ ul.breadcrumb {
 /* Display list items side by side */
 ul.breadcrumb li {
   display: inline;
-  font-size: 1rem;
+  font-size: var(--quaternary-font-size);
 }
 
 /* Add a slash symbol (/) before/behind each list item */
 ul.breadcrumb li + li:before {
   padding: 8px;
-  color: #862908;
+  color: var(--senary);
   content: "/\00a0";
 }
 
 /* Add a color to all links inside the list */
 ul.breadcrumb li a {
-  color: #862908;
+  color: var(--senary);
   text-decoration: none;
   font-size: 0.6rem;
 }
 
 ul.breadcrumb li a:hover {
-  color: #a5b88e;
+  color: var(--tertiary);
   text-decoration: none;
 }
 /* Breadcrumb slut */
 
-/* TEKST START*/
-h1 {
-  font-family: "walkwayregular", sans-serif;
-  color: #862908;
-  font-weight: 100;
-  font-size: 3.5rem;
-}
-
-h2 {
-  font-family: "walkwayregular", sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 1.5rem;
-}
-h3 {
-  font-family: "walkwayregular", sans-serif;
-  color: black;
-  font-weight: 200;
-  font-size: 1.5rem;
-}
-
-h4 {
-  font-family: "walkwayregular", sans-serif;
-  color: black;
-  font-weight: 500;
-  font-size: 1.1rem;
-}
-
-p {
-  font-family: "walkwayregular", sans-serif;
-  color: black;
-  font-weight: 100;
-  font-size: 1rem;
-}
-
-a {
-  font-family: "walkwayregular", sans-serif;
-  color: black;
-  font-size: 1rem;
-}
-
-a:hover {
-  color: #862908;
-}
-
 @media (min-width: 800px) {
   ul.breadcrumb li {
-    font-size: 0.8rem;
+    font-size: var(--quinary-font-size);
   }
 
   ul.breadcrumb li a {
-    font-size: 0.8rem;
+    font-size: var(--quinary-font-size);
   }
 }

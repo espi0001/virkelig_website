@@ -3,8 +3,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: #3c3d30;
+  background-color: var(--quaternary);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: var(--primary-font);
 }
 
 .logo img {
@@ -19,7 +20,7 @@ nav {
 
 .menu {
   display: flex;
-  list-style: none;
+  list-style: var(--primary-list-style);
   margin: 0;
   padding: 0;
 }
@@ -35,14 +36,14 @@ nav {
 .menu a {
   display: block;
   padding: 10px;
-  color: #fff;
+  color: var(--secondary);
   text-decoration: none;
   transition: color 0.3s;
   text-align: end;
 }
 
 .menu a:hover {
-  color: #862908;
+  color: var(--senary);
 }
 
 .burger {
@@ -54,7 +55,7 @@ nav {
 .burger .line {
   width: 100%;
   height: 2px;
-  background-color: #fff;
+  background-color: var(--secondary);
   margin-bottom: 5px;
   transition: 0.2s linear;
 }
@@ -85,7 +86,7 @@ nav {
 
   nav.active .menu {
     display: block;
-    background-color: #3c3d30;
+    background-color: var(--quaternary);
     position: absolute;
     top: 60px;
     left: 0;
