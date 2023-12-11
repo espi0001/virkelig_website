@@ -46,11 +46,16 @@ p {
     grid-column: span 2;
     margin-bottom: -5px;
   }
+  .ramme_instruktoer p {
+    font-style: italic;
+  }
 
   .tekst {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    line-height: 1;
+    padding-right: 60px;
   }
 
   .instruktoer {
