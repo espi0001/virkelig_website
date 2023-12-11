@@ -19,7 +19,6 @@
     margin-bottom: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    background-color: rgb(126, 43, 27);
     padding: 10px;
   }
 
@@ -51,7 +50,6 @@
   /* -- HVID FARVE TIL TEKSTBOKSE -- */
 
   .text_color {
-    color: aliceblue;
   }
 
   /*------------ BLIV LÆRER & PRISLISTE -------- */
@@ -73,6 +71,9 @@
 }
 
 /* --------------------- DESKTOP ---------------------- */
+/* --------------------- DESKTOP ---------------------- */
+/* --------------------- DESKTOP ---------------------- */
+/* --------------------- DESKTOP ---------------------- */
 
 @media screen and (min-width: 800px) {
   .container {
@@ -84,7 +85,6 @@
 
   .virkelig_alex {
     margin-bottom: 20px;
-    background-color: rgb(126, 43, 27);
     padding: 10px;
   }
 
@@ -117,7 +117,6 @@
   /* -- HVID FARVE TIL TEKSTBOKSE -- */
 
   .text_color {
-    color: aliceblue;
   }
 
   /*------------ BLIV LÆRER & PRISLISTE -------- */
