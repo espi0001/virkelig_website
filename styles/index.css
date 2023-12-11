@@ -1,11 +1,20 @@
+html {
+  --primary: rgb(107, 142, 107);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
-/*MOBILESITE*/
-@media screen and (max-width: 800px) {
+main {
+  padding: 20px;
 }
 
 /*Forside-hero-billede*/
@@ -19,22 +28,12 @@
   position: absolute;
   bottom: 10%;
   left: 50%;
-  transform: translate(-50, -50%);
+  transform: translate(-50%, -50%);
   text-align: center;
   color: antiquewhite;
 }
 
 /* Knapppens look*/
-.green-button {
-  background-color: rgb(107, 142, 107);
-  padding: 10px 20px;
-  color: rgb(248, 250, 251);
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 10px;
-  width: 100%;
-  display: block;
-}
 
 /*Container stil til placering af knapper*/
 .button-column {
@@ -51,3 +50,59 @@
   width: 100%;
   height: auto;
 }*/
+
+.knap_container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.knap_container a {
+  /* background-color: red; */
+  width: 100%;
+  background-color: var(--primary);
+  padding: 10px 20px;
+  color: rgb(248, 250, 251);
+  text-align: center;
+  font-size: 16px;
+  height: 40px;
+}
+
+@media screen and (min-width: 800px) {
+  /* body {
+    background-color: red;
+  } */
+
+  .knap_container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .knap_container img {
+    grid-area: 1/2/4/3;
+  }
+  .knap_container a {
+    width: 66%;
+  }
+  .knap_container .knap1 {
+    justify-self: start;
+    align-self: start;
+  }
+  .knap_container .knap2 {
+    justify-self: start;
+    align-self: center;
+  }
+
+  .knap_container .knap3 {
+    justify-self: start;
+    align-self: end;
+  }
+  main {
+    padding: 50px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+footer img {
+  margin: 5px;
+}
