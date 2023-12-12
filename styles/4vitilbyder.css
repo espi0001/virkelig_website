@@ -6,26 +6,6 @@ h2 {
   margin-bottom: 10px;
 }
 
-.tilbyder {
-  margin: 0 auto;
-  background-color: var(--secondary);
-}
-
-.ramme_tilbyder {
-  background-color: var(--secondary);
-  border: solid 4px var(--tertiary);
-  padding: 40px;
-  padding-inline: initial;
-  align-items: center;
-  text-align: center;
-  margin-inline: auto;
-}
-
-h3 {
-  text-align: center;
-  margin-top: 20px;
-}
-
 .kasse1,
 .kasse2 {
   display: block;
