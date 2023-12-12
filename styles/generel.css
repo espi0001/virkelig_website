@@ -55,25 +55,29 @@ footer {
   color: var(--secondary);
   text-align: center;
   padding: 20px 0;
+  line-height: 2;
 }
 
 footer p {
   color: var(--secondary);
 }
+
 footer a {
   color: var(--secondary);
   list-style: var(--primary-list-style);
   text-decoration: none;
   font-weight: var(--primary-font-weight);
+  font-size: 0.8rem;
 }
 
-footer img {
-  margin: 5px;
+.footer_adresse {
+  font-size: 0.8rem;
 }
 
-.iconer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+.footer_img {
+  display: inline-flex;
+  width: 18%;
+  gap: 10px;
 }
 
 @font-face {
@@ -128,4 +132,20 @@ a {
 
 a:hover {
   color: var(--senary);
+}
+
+@media (min-width: 800px) {
+  .footer_img {
+    width: 8%;
+  }
+
+  footer p {
+    font-size: 1.2rem;
+  }
+
+  footer a,
+  .footer_adresse {
+    font-size: 1rem;
+    gap: 10px;
+  }
 }
