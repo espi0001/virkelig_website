@@ -39,7 +39,6 @@ main {
   left: 0;
   top: 0;
   position: absolute;
-  filter: grayscale(100%);
 }
 
 hr {
