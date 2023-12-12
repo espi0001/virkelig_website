@@ -6,38 +6,18 @@ h2 {
   margin-bottom: 10px;
 }
 
-.tilbyder {
-  margin: 0 auto;
-  background-color: var(--secondary);
-}
-
-.ramme_tilbyder {
-  background-color: var(--secondary);
-  border: solid 4px var(--tertiary);
-  padding: 40px;
-  padding-inline: initial;
-  align-items: center;
-  text-align: center;
-  margin-inline: auto;
-}
-
-h3 {
-  text-align: center;
-  margin-top: 20px;
-}
-
 .kasse1,
 .kasse2 {
   display: block;
   margin: 0 auto;
-  background-color: var(--septenary);
+  background-color: var(--tertiary);
   margin-top: 20px;
 }
 
-.left,
+/* .left,
 .right {
   padding: 10px 10px;
-}
+} */
 
 .centrer {
   text-align: center;
@@ -92,6 +72,7 @@ button:hover {
 
   h2 {
     font-size: 2.5rem;
+    font-weight: var(--tertiary-font-weight);
   }
 
   .udlejning a,
@@ -101,19 +82,34 @@ button:hover {
   .ramme_tilbyder {
     padding: 90px;
   }
-  .kasse1 a,
-  .kasse2 a {
-    font-size: 1.8rem;
-    font-weight: var(--primary-font-weight);
-    line-height: 2.7;
-  }
-  .kasse1,
-  .kasse2 {
+
+  .kasserne {
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .kasse1 a,
+  .kasse2 a {
+    font-size: var(--secondary-font-size);
+    font-weight: var(--primary-font-weight);
+    line-height: 2;
+  }
+  .kasse1 {
+    display: grid;
+    grid-template-columns: 9fr 10fr;
     gap: 20px;
     padding: 15px;
   }
+  .kasse2 {
+    display: grid;
+    grid-template-columns: 10fr 9fr;
+    gap: 20px;
+    padding: 15px;
+  }
+  .kasse1 img,
+  .kasse2 img {
+    width: 80%;
+  }
+
   .right {
     text-align: right;
   }
