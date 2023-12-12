@@ -12,6 +12,10 @@ img {
   height: auto;
   display: block;
 }
+.billede-klasse {
+  max-width: 300px;
+  height: auto;
+}
 
 footer {
   text-align: center;
