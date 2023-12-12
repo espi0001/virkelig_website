@@ -55,6 +55,7 @@ footer {
   background-color: var(--quaternary);
   color: var(--secondary);
   text-align: center;
+  padding: 20px 0;
 }
 
 footer p {
@@ -65,6 +66,10 @@ footer a {
   list-style: var(--primary-list-style);
   text-decoration: none;
   font-weight: var(--primary-font-weight);
+}
+
+footer img {
+  margin: 5px;
 }
 
 .iconer {
