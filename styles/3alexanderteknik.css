@@ -4,69 +4,105 @@
   padding: 0;
   box-sizing: border-box;
 }
+.horizontal-line {
+  border: none; /* Fjern den indbyggede border fra hr-elementet */
+  border-top: 2px solid #000; /* Ændr farven efter behov (#000 er sort) */
+  margin: 20px 10px; /* Juster afstanden over og under linjen efter behov */
+}
 
 /*--------------- MOBILE --------------- */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .container {
   }
 
   .alexander_teknik {
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
   }
 
   .virkelig_alex {
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
+    max-width: 600px;
+  }
+  .white_board {
+    max-width: 600px;
+    margin-top: 20px;
   }
 
   /* ------ MEKANIK - VÆREN - MENING ------- */
 
   .themes {
     margin-bottom: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
-    background-color: rgb(107, 142, 107);
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
     color: aliceblue;
     display: grid;
     grid-template-columns: 1fr;
   }
-
+  .themes_icon {
+    padding: 30px;
+  }
   .mekanik {
     margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f5f4eb;
+    border: solid 4px #862908;
   }
 
   .vaeren {
     margin-bottom: 20px;
+    background-color: #f5f4eb;
+    border: solid 4px #862908;
+    padding: 20px;
   }
 
   .mening {
     margin-bottom: 20px;
+    background-color: #f5f4eb;
+    border: solid 4px #862908;
+    padding: 20px;
   }
 
   /* -- HVID FARVE TIL TEKSTBOKSE -- */
 
   .text_color {
+    font-size: 2rem;
   }
 
   /*------------ BLIV LÆRER & PRISLISTE -------- */
 
   .sign_up {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   .be_at {
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
   }
 
   .pricelist {
-    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
   }
 
   button {
     padding: 20px;
+    background-color: #f5f4eb;
+    position: sticky;
+    top: 0px;
+    left: 35px;
   }
 }
 
@@ -75,24 +111,138 @@
 /* --------------------- DESKTOP ---------------------- */
 /* --------------------- DESKTOP ---------------------- */
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 992px) {
   .container {
   }
 
   .alexander_teknik {
     margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 10px;
   }
 
   .virkelig_alex {
     margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
     padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .virkelig_alex_text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .white_board {
+    max-width: 500px;
+  }
+  /* ------ MEKANIK - VÆREN - MENING ------- */
+
+  .themes {
+    margin-bottom: 20px;
+    margin-left: 90px;
+    margin-right: 90px;
+    padding: 30px;
+    color: aliceblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .mekanik {
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .vaeren {
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .mening {
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* -- HVID FARVE TIL TEKSTBOKSE -- */
+
+  /*------------ BLIV LÆRER & PRISLISTE -------- */
+
+  .sign_up {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .be_at {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  .pricelist {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+
+  button {
+    padding: 20px;
+    background-color: #f5f4eb;
+    position: relative;
+    top: -20px;
+    left: 110px;
+  }
+}
+
+/* ----------- TABLET ---------------- */
+/* ----------- TABLET ---------------- */
+/* ----------- TABLET ---------------- */
+/* ----------- TABLET ---------------- */
+/* ----------- TABLET ---------------- */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+  }
+
+  .alexander_teknik {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+
+  .virkelig_alex {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+  }
+  .white_board {
+    display: none;
+    max-width: 600px;
+    margin-top: 20px;
   }
 
   /* ------ MEKANIK - VÆREN - MENING ------- */
 
   .themes {
     margin-bottom: 20px;
-    background-color: rgb(107, 142, 107);
+    margin-left: 10px;
+    margin-right: 10px;
     padding: 10px;
     color: aliceblue;
     display: grid;
@@ -100,18 +250,27 @@
   }
 
   .mekanik {
-    margin-bottom: 20px;
-    max-width: 240px;
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .vaeren {
-    margin-bottom: 20px;
-    max-width: 240px;
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .mening {
-    margin-bottom: 20px;
-    max-width: 240px;
+    padding: 20px;
+    border: solid 4px #862908;
+    background-color: #f5f4eb;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   /* -- HVID FARVE TIL TEKSTBOKSE -- */
@@ -124,16 +283,32 @@
   .sign_up {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-left: 90px;
+    margin-right: 90px;
   }
 
   .be_at {
     margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
   }
 
   .pricelist {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
   }
 
   button {
     padding: 20px;
+    background-color: #f5f4eb;
+    position: relative;
+    top: -42px;
+    left: 110px;
+  }
+  .line {
+    display: none;
   }
 }

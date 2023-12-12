@@ -54,6 +54,7 @@ main {
 footer {
   background-color: var(--quaternary);
   color: var(--secondary);
+  text-align: center;
 }
 
 footer p {
@@ -63,6 +64,12 @@ footer a {
   color: var(--secondary);
   list-style: var(--primary-list-style);
   text-decoration: none;
+  font-weight: var(--primary-font-weight);
+}
+
+.iconer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @font-face {
