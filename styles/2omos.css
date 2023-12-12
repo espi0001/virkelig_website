@@ -4,15 +4,32 @@ p {
 
 .om_os {
   margin: 0 auto;
-  background-color: #f5f4eb;
-  margin: 20px 20px 20px 20px;
+  background-color: var(--secondary);
+  margin: 20px 20px;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.video {
+  overflow: hidden;
 }
 
 video {
   width: 100%;
+  height: 100%;
   display: block;
   object-fit: cover;
 }
+
+/*video {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}*/
 
 .margin {
   margin-left: 90px;
@@ -32,7 +49,7 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    border: solid 2px #862908;
+    border: solid 3px var(--senary);
     padding: 40px;
     margin: 1rem;
   }
@@ -67,13 +84,6 @@ video {
   .billede img {
     width: 46%;
     margin-bottom: 10px;
-  }
-
-  article {
-    display: block;
-    margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px 10px;
-    align-items: center;
   }
 
   .billede {
