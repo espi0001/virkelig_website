@@ -8,10 +8,13 @@ p {
   margin: 20px 20px 20px 20px;
 }
 
+.margin {
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
 @media (min-width: 800px) {
   .ramme_om_os {
-    background-color: #f5f4eb;
-    border: solid 4px #862908;
     padding: 54px;
     padding-inline: initial;
     align-items: center;
@@ -19,32 +22,17 @@ p {
     margin-inline: auto;
   }
 
-  /*.ramme_instruktoer {
-  background-color: #f5f4eb;
-  border: solid 4px #862908;
-  padding: 40px;
-  padding-inline: initial;
-  align-items: center;
-  text-align: center;
-  margin-inline: auto;
-  margin: 1rem;
-}
-
-/* STYLE */
-
   .ramme_instruktoer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: #f5f4eb;
-    border: solid 4px #862908;
+    border: solid 1px #862908;
     padding: 40px;
     margin: 1rem;
   }
 
   .ramme_instruktoer h3 {
     grid-column: span 2;
-    margin-bottom: -76px;
   }
   .ramme_instruktoer p {
     font-style: italic;
