@@ -12,6 +12,10 @@
     margin-bottom: 10px;
     text-align: center;
   }
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .a_text {
     text-align: center;
     margin-bottom: 10px;
@@ -79,13 +83,20 @@
   main {
     margin: 20px 90px;
   }
-
+  .h2_vi_tilbyder {
+    font-size: 2rem;
+    font-weight: var(--primary-font-weight);
+    padding: 0px;
+  }
   h2 {
     font-size: 2.5rem;
     font-weight: var(--tertiary-font-weight);
     padding: 10px;
   }
-
+  h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
   .udlejning a,
   .udlejning p {
     font-size: 1.4rem;
