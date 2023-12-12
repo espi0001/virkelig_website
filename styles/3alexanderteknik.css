@@ -100,13 +100,25 @@
     margin-right: 10px;
     padding: 10px;
   }
-
+  .knap {
+    text-align: center;
+    align-items: center;
+  }
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: sticky;
     top: 0px;
     left: 35px;
+  }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
   }
 }
 
@@ -201,13 +213,25 @@
     margin-right: 10px;
     padding: 10px;
   }
+  .knap {
+    text-align: inherit;
+  }
 
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: relative;
     top: -20px;
     left: 110px;
+  }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
   }
 }
 
@@ -303,14 +327,27 @@
     margin-right: 10px;
     padding: 10px;
   }
+  .knap {
+    text-align: inherit;
+  }
 
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: relative;
     top: -42px;
     left: 110px;
   }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
+  }
+
   .line {
     display: none;
   }
