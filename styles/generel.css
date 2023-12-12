@@ -14,11 +14,10 @@ img {
 html {
   --primary: black; /*tekst*/
   --secondary: #faf9f4; /*body*/
-  --tertiary: #a5b88e; /*lysegrøn*/
+  --tertiary: #c7d2b8; /*lysegrøn*/
   --quaternary: #3c3d30; /* Mørkegrøn - header*/
   --quinary: #a99c9c; /* lilla */
   --senary: #862908; /*deres rød*/
-  --septenary: #c7d2b8; /*lysere grøn*/
 
   --primary-font: "walkwayregular", sans-serif;
 
@@ -55,6 +54,7 @@ footer {
   background-color: var(--quaternary);
   color: var(--secondary);
   text-align: center;
+  padding: 20px 0;
 }
 
 footer p {
@@ -65,6 +65,10 @@ footer a {
   list-style: var(--primary-list-style);
   text-decoration: none;
   font-weight: var(--primary-font-weight);
+}
+
+footer img {
+  margin: 5px;
 }
 
 .iconer {
