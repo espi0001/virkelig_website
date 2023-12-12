@@ -4,10 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-.horizontal-line {
-  border: none; /* Fjern den indbyggede border fra hr-elementet */
-  border-top: 2px solid #000; /* Ændr farven efter behov (#000 er sort) */
-  margin: 20px 10px; /* Juster afstanden over og under linjen efter behov */
+.green_line {
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 /*--------------- MOBILE ---------------- */
@@ -38,6 +37,7 @@
   .white_board {
     max-width: 600px;
     margin-top: 20px;
+    border-radius: 20px;
   }
 
   /* ------ MEKANIK - VÆREN - MENING ------- */
@@ -100,13 +100,25 @@
     margin-right: 10px;
     padding: 10px;
   }
-
+  .knap {
+    text-align: center;
+    align-items: center;
+  }
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: sticky;
     top: 0px;
     left: 35px;
+  }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
   }
 }
 
@@ -120,7 +132,6 @@
   }
 
   .alexander_teknik {
-    margin-bottom: 20px;
     margin-left: 90px;
     margin-right: 90px;
     padding: 10px;
@@ -141,6 +152,7 @@
   }
   .white_board {
     max-width: 500px;
+    border-radius: 20px;
   }
   /* ------ MEKANIK - VÆREN - MENING ------- */
 
@@ -201,13 +213,25 @@
     margin-right: 10px;
     padding: 10px;
   }
+  .knap {
+    text-align: inherit;
+  }
 
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: relative;
     top: -20px;
     left: 110px;
+  }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
   }
 }
 
@@ -238,6 +262,7 @@
     display: none;
     max-width: 600px;
     margin-top: 20px;
+    border-radius: 20px;
   }
 
   /* ------ MEKANIK - VÆREN - MENING ------- */
@@ -303,14 +328,27 @@
     margin-right: 10px;
     padding: 10px;
   }
+  .knap {
+    text-align: inherit;
+  }
 
   button {
     padding: 20px;
     background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--tertiary);
+    transition-duration: 0.4s;
+    cursor: pointer;
     position: relative;
     top: -42px;
     left: 110px;
   }
+
+  button:hover {
+    background-color: var(--tertiary);
+    color: var(--secondary);
+  }
+
   .line {
     display: none;
   }
