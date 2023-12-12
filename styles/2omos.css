@@ -12,7 +12,7 @@ p {
   .ramme_om_os {
     background-color: #f5f4eb;
     border: solid 4px #862908;
-    padding: 40px;
+    padding: 54px;
     padding-inline: initial;
     align-items: center;
     text-align: center;
@@ -44,7 +44,7 @@ p {
 
   .ramme_instruktoer h3 {
     grid-column: span 2;
-    margin-bottom: -5px;
+    margin-bottom: -76px;
   }
   .ramme_instruktoer p {
     font-style: italic;
@@ -55,7 +55,7 @@ p {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     line-height: 1;
-    padding-right: 60px;
+    padding-right: 80px;
   }
 
   .instruktoer {
