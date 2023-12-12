@@ -30,6 +30,11 @@
     padding: 10px;
     max-width: 600px;
   }
+
+  .virkelig_alex h1 {
+    word-break: break-all;
+  }
+
   .white_board {
     max-width: 600px;
     margin-top: 20px;
@@ -39,10 +44,9 @@
 
   .themes {
     margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     padding: 10px;
-    color: aliceblue;
     display: grid;
     grid-template-columns: 1fr;
   }
@@ -52,21 +56,21 @@
   .mekanik {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f5f4eb;
-    border: solid 4px #862908;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
   }
 
   .vaeren {
     margin-bottom: 20px;
-    background-color: #f5f4eb;
-    border: solid 4px #862908;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     padding: 20px;
   }
 
   .mening {
     margin-bottom: 20px;
-    background-color: #f5f4eb;
-    border: solid 4px #862908;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     padding: 20px;
   }
 
@@ -99,7 +103,7 @@
 
   button {
     padding: 20px;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
     position: sticky;
     top: 0px;
     left: 35px;
@@ -145,31 +149,30 @@
     margin-left: 90px;
     margin-right: 90px;
     padding: 30px;
-    color: aliceblue;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
   .mekanik {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .vaeren {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .mening {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -201,7 +204,7 @@
 
   button {
     padding: 20px;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
     position: relative;
     top: -20px;
     left: 110px;
@@ -251,24 +254,24 @@
 
   .mekanik {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .vaeren {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
 
   .mening {
     padding: 20px;
-    border: solid 4px #862908;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
+    border: solid 4px var(--senary);
     margin-left: 10px;
     margin-right: 10px;
   }
@@ -303,7 +306,7 @@
 
   button {
     padding: 20px;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
     position: relative;
     top: -42px;
     left: 110px;
