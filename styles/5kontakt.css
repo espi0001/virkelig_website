@@ -2,24 +2,8 @@ main {
   margin: 20px 20px;
 }
 
-.kontakt {
-  margin: 0 auto;
-  background-color: var(--secondary);
-}
-
-.ramme_kontakt {
-  background-color: var(--secondary);
-  border: solid 4px var(--tertiary);
-  padding: 40px;
-  padding-inline: initial;
-  align-items: center;
-  text-align: center;
-  margin-inline: auto;
-}
-
 .virkelig {
   display: block;
-  margin-top: 20px;
   margin-bottom: 20px;
 }
 
