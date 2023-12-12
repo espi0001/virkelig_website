@@ -55,6 +55,12 @@ h3 {
   display: block;
   margin: 0 auto;
 }
+
+hr {
+  color: var(--tertiary);
+  margin: 50px 50px;
+}
+
 .udlejning a,
 .udlejning p {
   font-size: var(--tertiary-font-size);
@@ -124,5 +130,10 @@ button:hover {
   }
   .knap {
     margin-top: 10px;
+  }
+
+  button {
+    padding: 25px;
+    font-size: 1.2rem;
   }
 }
