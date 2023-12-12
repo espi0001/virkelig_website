@@ -35,23 +35,36 @@ img {
   padding: 0 20px;
 }
 
-.button {
+.border {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #f5f4eb;
+  border: solid 2px rgb(107, 142, 107);
+  padding: 10px;
+  margin: 1rem;
+  width: 200px;
+}
+/* .button {
   display: block;
   margin: 20px auto; /* Tilføjet mere margin for at give plads omkring knappen */
-  padding: 10px 20px;
-  --primary: rgb(107, 142, 107);
-}
+/* padding: 10px 20px;
+
+  background-color: rgb(107, 142, 107);
+} */
 /* Knapppens look*/
 /*Container stil til placering af knapper*/
-.button-column {
+/* .button-column {
   display: flex;
   flex-direction: column;
-}
+} */
+*/
 
 /*Container stil til billede*/
 .image-container {
   margin-left: 20px;
 }
+
 /*Så billedet tilpasser sig forskellige skærmstr*/
 /*.image-container img {
   width: 100%;
