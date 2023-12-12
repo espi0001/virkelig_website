@@ -13,38 +13,58 @@ img {
   display: block;
 }
 
-main {
-  padding: 20px;
-}
+/*main {
+  /*padding: 20px;}
 
 /*Forside-hero-billede*/
 .hero-container {
   position: relative;
   max-width: 100%;
+  padding: 0;
 }
 /*Tekst der er placeret ovenpå billedet*/
 
 .tekst-overlay {
   position: absolute;
-  bottom: 10%;
+  bottom: 0%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: antiquewhite;
+  color: white;
+  width: 100%;
+  padding: 0 20px;
 }
 
-/* Knapppens look*/
+.border {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background-color: #f5f4eb;
+  border: solid 2px rgb(107, 142, 107);
+  padding: 10px;
+  margin: 1rem;
+  width: 200px;
+}
+/* .button {
+  display: block;
+  margin: 20px auto; /* Tilføjet mere margin for at give plads omkring knappen */
+/* padding: 10px 20px;
 
+  background-color: rgb(107, 142, 107);
+} */
+/* Knapppens look*/
 /*Container stil til placering af knapper*/
-.button-column {
+/* .button-column {
   display: flex;
   flex-direction: column;
-}
+} */
+*/
 
 /*Container stil til billede*/
 .image-container {
   margin-left: 20px;
 }
+
 /*Så billedet tilpasser sig forskellige skærmstr*/
 /*.image-container img {
   width: 100%;
@@ -54,14 +74,14 @@ main {
 .knap_container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 1px;
 }
 
 .knap_container a {
   /* background-color: red; */
   width: 100%;
   background-color: var(--primary);
-  padding: 10px 20px;
+  padding: 40px;
   color: rgb(248, 250, 251);
   text-align: center;
   font-size: 16px;
@@ -75,6 +95,7 @@ main {
 
   .knap_container {
     grid-template-columns: 1fr 1fr;
+    padding: 10px 20px;
   }
   .knap_container img {
     grid-area: 1/2/4/3;
@@ -95,9 +116,19 @@ main {
     justify-self: start;
     align-self: end;
   }
-  main {
+  /*main {
     padding: 50px;
+  }*/
+
+  iframe {
+    width: 1500px; /* Ændr størrelsen efter dine behov */
+    height: 450px; /* Ændr størrelsen efter dine behov */
+    border: 0;
+    padding: 20px;
+    margin: auto 0;
+    display: block;
   }
+
   footer {
     text-align: center;
     padding: 20px 0;
