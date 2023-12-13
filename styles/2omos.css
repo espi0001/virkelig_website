@@ -1,7 +1,12 @@
 p {
   line-height: 1.5;
 }
-
+img {
+  border-radius: 10px;
+}
+video {
+  border-radius: 10px;
+}
 /*----------- TABLET ------------*/
 /*----------- TABLET ------------*/
 /*----------- TABLET ------------*/
@@ -72,10 +77,12 @@ p {
   .billeder-container {
     margin-left: 30px;
     margin-right: 30px;
+    padding: 10px;
   }
   .billeder-container2 {
     margin-left: 30px;
     margin-right: 30px;
+    padding: 10px;
   }
   .red_line {
     margin-top: 5px;
@@ -158,6 +165,7 @@ p {
   .billeder-container {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
   }
 
   .billede img {
