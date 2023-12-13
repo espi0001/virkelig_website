@@ -2,6 +2,15 @@
 /* ---------- MOBILE ---------- */
 /* ---------- MOBILE ---------- */
 /* ---------- MOBILE ---------- */
+.order {
+  display: flex;
+  justify-content: center;
+}
+
+.center_billeder {
+  display: flex;
+  justify-content: center;
+}
 
 @media (max-width: 800px) {
   main {
@@ -60,6 +69,12 @@
   color: var(--senary);
 }
 
+.green_ramme {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 ul.tilbyder_sti {
   display: flex;
   justify-content: center;
@@ -67,9 +82,8 @@ ul.tilbyder_sti {
   list-style: none;
   background-color: var(--tertiary);
   margin-top: 30px;
-  margin-left: 370px;
-  margin-right: 370px;
   border-radius: 10px;
+  flex-wrap: wrap;
 }
 
 ul.tilbyder_sti li {
