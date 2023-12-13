@@ -107,6 +107,7 @@ h1 {
 
 .billede-klasse {
   border: solid 40px var(--tertiary);
+  border-radius: 10px;
 }
 
 .knap_container a {
