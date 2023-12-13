@@ -148,47 +148,6 @@ a:hover {
   color: var(--senary);
 }
 
-/* tilbyder_sti start */
-/* Style the list */
-
-.top_tilbyder a:hover {
-  color: var(--senary);
-}
-
-ul.tilbyder_sti {
-  display: block ruby;
-  padding: 10px 16px;
-  list-style: none;
-  background-color: var(--secondary);
-  text-align: center;
-}
-
-/* Display list items side by side */
-ul.tilbyder_sti li {
-  display: inline;
-  font-size: 1.5rem;
-}
-
-/* Add a slash symbol (/) before/behind each list item */
-ul.tilbyder_sti li + li:before {
-  padding: 8px;
-  color: var(--primary);
-  content: "\2022\00a0";
-}
-
-/* Add a color to all links inside the list */
-ul.tilbyder_sti li a {
-  color: var(--primary);
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-ul.tilbyder_sti li a:hover {
-  color: var(--senary);
-  text-decoration: none;
-}
-/* tilbyder_sti slut */
-
 @media (min-width: 800px) {
   .footer_img {
     width: 8%;
