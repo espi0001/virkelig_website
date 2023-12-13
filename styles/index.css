@@ -36,19 +36,6 @@ video {
   object-fit: cover;
 }
 
-.some {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 15%;
-  gap: 40px;
-  margin: 0 auto;
-}
-.some img {
-  width: 15%;
-  height: auto;
-}
-
 /*main {
   /*padding: 20px;}
 
@@ -173,12 +160,22 @@ h1 {
     background-color: red;
   } */
 
-  .knap_container {
-    grid-template-columns: 1fr 1fr;
+  /* grid-template-columns: 1fr 1fr;
     padding: 10px 20px;
     max-width: 800px;
-    margin: auto;
+    margin: auto; */
+  .knap_container {
+    display: flex;
+    margin: 10px;
+    justify-content: space-around;
+    background-color: var(--tertiary);
   }
+  /* >div taler til alle div hvor forældrene er knap-containere*/
+  .knap_container > div {
+    width: 30%;
+    padding-top: 20px;
+  }
+
   .knap_container img {
     grid-area: 1/2/4/3;
   }
@@ -196,7 +193,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     background-color: #f5f4eb;
-    border: solid 2px rgb(107, 142, 107);
+    border: solid var(--tertiary);
   }
 
   .knap_container .knap3 {
@@ -205,8 +202,50 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: #f5f4eb;
-    border: solid 2px rgb(107, 142, 107);
+    background-color: var(--secondary);
+    border: solid var(--tertiary);
+  }
+
+  .link {
+    background-color: var(--secondary);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 20px 20px;
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .link_to {
+    background-color: var(--secondary);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 20px 20px;
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .link_tre {
+    background-color: var(--secondary);
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    padding: 20px 20px;
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+    text-decoration: none;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+    cursor: pointer;
   }
   /*main {
     padding: 50px;
