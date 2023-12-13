@@ -2,24 +2,25 @@ p {
   line-height: 1.5;
 }
 
-.om_os {
-  margin: 0 auto;
-  background-color: #f5f4eb;
-  margin: 20px 20px 20px 20px;
-}
-
-video {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.margin {
-  margin-left: 90px;
-  margin-right: 90px;
-}
-
 @media (min-width: 800px) {
+  .om_os {
+    margin: 0 auto;
+    background-color: var(--secondary);
+    margin: 20px 20px;
+  }
+
+  .om_os_intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 10px;
+    margin-top: 50px;
+  }
+
+  .margin {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
   .ramme_om_os {
     padding: 54px;
     padding-inline: initial;
@@ -32,9 +33,10 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    border: solid 2px #862908;
+    border: solid 3px var(--senary);
     padding: 40px;
     margin: 1rem;
+    background-color: #faf9f4;
   }
 
   .ramme_instruktoer h4 {
@@ -69,13 +71,6 @@ video {
     margin-bottom: 10px;
   }
 
-  article {
-    display: block;
-    margin: 20px 20px 20px 20px;
-    padding: 10px 10px 10px 10px;
-    align-items: center;
-  }
-
   .billede {
     display: flex;
     flex-direction: column;
@@ -85,10 +80,6 @@ video {
   @media (min-width: 800px) {
     .ramme_om_os {
       padding: 90px;
-    }
-
-    article {
-      margin: 0px;
     }
 
     .tekst {
