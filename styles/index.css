@@ -168,7 +168,7 @@ h1 {
     display: flex;
     margin: 10px;
     justify-content: space-around;
-    background-color: #a5b88e;
+    background-color: var(--tertiary);
   }
   /* >div taler til alle div hvor forældrene er knap-containere*/
   .knap_container > div {
@@ -193,7 +193,7 @@ h1 {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     background-color: #f5f4eb;
-    border: solid 2px rgb(107, 142, 107);
+    border: solid var(--tertiary);
   }
 
   .knap_container .knap3 {
@@ -202,7 +202,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: #f5f4eb;
+    background-color: var(--secondary);
     border: solid var(--tertiary);
   }
 
